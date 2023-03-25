@@ -1,0 +1,122 @@
+body
+{
+    background-color:#FDD36A;
+    text-align: center;
+    margin: 30px;
+    height: 100vh;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+
+a
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+.container
+{
+    width: 400px;
+    height: 550px;
+    background-color: #ffff;
+    margin: auto; 
+    border-radius:10px ;   
+}
+
+.top
+{
+    
+  
+margin-bottom: 5rem; 
+font-size: 2rem;
+color: #7AA874;
+font-weight: 900;
+    
+}
+.nacc
+{
+    font-size: 1.5rem;
+    margin-top: 15px;
+    margin-bottom: 10rem;
+}
+.logo
+{
+    background-color:rgb(236, 123, 85);
+    border-radius:10px 10px 0 0 ;
+}
+
+img 
+{
+    height: 100px;
+    width: 100px;
+}
+
+input
+{
+    background-color: transparent;
+    height: 2.5rem;
+    width: 20rem;
+    display: block;
+    margin: 3rem;
+    border-radius:10px ;
+    border-color:antiquewhite ;
+    background-color: aliceblue;
+    padding-left: 1.2rem;
+    box-sizing: border-box;
+}
+
+.btn
+{
+    width:20rem;
+    height: 2.5rem;
+    border-radius: 10px; 
+    background-image: linear-gradient(43deg,#986fe6,#2c2797);
+    font-size:1.5rem ;
+    color: #ffff;
+    border-color:transparent ;
+    margin-left: 10px;
+}
+
+.cardheading
+{
+    font-size: 1.5rem;
+    color:#497174;
+}
+
+.changeuser
+{
+    font-size: 1.2rem;
+    color:green ;
+    margin: 30px;
+    margin-bottom: 30px;
+}
+
+.login
+{
+    padding-top: 15%;
+}
+
+.footer
+{
+   
+   color: #7AA874;
+   line-height: 3rem;
+   margin: 3rem auto auto 0;
+   font-size: 2rem;
+   font-weight: 600;
+}
+
+
+.btn:hover
+{
+    background-color: #986fe6;
+    background-image: none;
+}
+

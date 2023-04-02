@@ -27,16 +27,16 @@ a
     height: 550px;
     background-color: #ffff;
     margin: auto; 
-    border-radius:10px ;  
+    border-radius:10px ;   
     box-shadow: 10px 10px 10px rgb(112, 103, 103);
-
 }
 
-.top
+.top , .footer
 {
     
   
 margin-bottom: 5rem; 
+margin-top: 3rem;
 font-size: 2rem;
 color: #7AA874;
 font-weight: 900;
@@ -105,20 +105,64 @@ input
     padding-top: 15%;
 }
 
-.footer
-{
-   
-   color: #7AA874;
-   line-height: 3rem;
-   margin: 3rem auto auto 0;
-   font-size: 2rem;
-   font-weight: 600;
-}
+
 
 
 .btn:hover
 {
     background-color: #986fe6;
     background-image: none;
+}
+
+
+@media (max-width:700px)
+{
+
+    .container
+    {
+    width: 350px;
+    height: 500px;
+    }
+
+    .btn ,input
+    {
+    width:18rem;
+    height: 2.0rem;
+    margin: 2rem;
+    
+    }
+
+    .top,.footer
+    {
+        font-size: 1.5rem ;
+    }
+}
+
+@media(max-width:400px)
+{
+    .container
+    {
+    width: 250px;
+    height: 400px;
+    }
+
+    .btn ,input
+    {
+    width:12rem;
+    height: 1.5rem;
+    margin: 1.5rem;
+    font-size: 1rem;
+    }
+
+    .top,.footer
+    {
+        font-size: 1.2rem ;
+    }
+
+    .changeuser{
+        font-size: 1rem;
+        margin-bottom: 10px;
+        margin: 10px;
+    }
 }
 
